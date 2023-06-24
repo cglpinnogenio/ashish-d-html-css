@@ -17,7 +17,7 @@ body{
     background-color: #191a1d;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     padding: 1rem;
@@ -89,7 +89,7 @@ body{
 }
 .heading-one{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 .heading-para{
@@ -98,8 +98,8 @@ body{
 }
 .heading-bton{
     display: flex;
-    align-items: center;
-    margin-left: 2.5rem;
+    justify-content: center;
+   
 }
 .createaccount-button{
     height: 2.3rem;
@@ -312,7 +312,7 @@ body{
 .shoe-img{
     width: 84%;
     border-radius: 8px;
-    margin-bottom: 2rem;
+    margin: auto;
     background-image: url(images/shoe.svg);
     background-position: center;
     background-size:cover;
@@ -508,6 +508,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     flex-wrap: wrap;
     gap: 3rem;
     padding-top: 3rem;
+    justify-content: center;
 }
 .services{
     display: flex;
@@ -527,9 +528,6 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
 
 
 @media (min-width: 768px){
-   .heading-bton{
-    margin-left: 9rem;
-   }
    .content-two{
     display: flex;
     flex-direction: row;
@@ -571,6 +569,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
  .shoe-img{
     min-height: 25rem;
     width: 76%;
+    margin: auto;
  }
  .texttwo{
     width: 80%;
@@ -584,6 +583,68 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
 }
   
 
+
+
+
+@media (min-width: 420px){
+    .heading-one{
+        font-size: 4rem;
+    }
+}
+
+
+@media (min-width: 520px) and (max-width: 767px){
+    .heading-bton{
+        display: flex;
+        justify-content: center;
+    }
+    .content-two{
+        gap: 2rem;
+    }
+    .innerbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+    .card{
+        width: 50%;
+    }
+    .points{
+        margin: 2rem;
+    
+    }
+    .imgbox-one,.imgbox-two,.imgbox-three,.imgbox-four{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+    }
+    .shoe-section{
+        gap: 2rem;
+    }
+    .shoe-img{
+        width: 58%;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 805px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+  }
+  
+
+@media (min-width: 806px){
+    .menu{
+        display: inline;
+    }
+}
+
+
 @media (min-width: 979px){
     .formfill-sectiontwo{
         border-left: 1px solid #80a3bb;
@@ -595,9 +656,6 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
 
 
 @media (min-width: 1400px){
-    .menu{
-        display: inline;
-    }
     .heading-one{
        font-size: 4.5rem; 
        width: 68%;
@@ -609,6 +667,8 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     }
     .heading-bton{
         margin: 0;
+        display: flex;
+        justify-content: flex-start;
        
     }
     .createaccount-button{
@@ -683,6 +743,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     }
     .shoe-img{
         width: 50%;
+        margin: 0;
     }
     .shoe-info{
         width: 30%;
