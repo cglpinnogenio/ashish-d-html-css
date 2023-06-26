@@ -161,10 +161,11 @@ body{
 }
 .points{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 2rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     padding-bottom: 1rem;
+    justify-content: center;
 }
 
 .imagebox{
@@ -407,6 +408,7 @@ textarea{
     outline: none;
     resize: none;
     border-radius: 1rem;
+    padding: 0.4rem;
    
 }
 .phno,.country,.place,.question,.editing,.fname,
@@ -497,10 +499,12 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    align-items: center;
     
 }
 .footer-para{
-    width: 100%; 
+    width: 50%;
+    text-align: center; 
    
 }
 .footer-text{
@@ -536,6 +540,10 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
        
   .innerbox{
     width: 36%;
+  }
+  .points{
+    display: flex;
+    flex-direction: column;
   }
   .imagebox{
     width: 60%;
@@ -579,6 +587,9 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
  .place{
     width: 86%;
  }
+ .footer-text{
+    gap: 4rem;
+ }
 
 }
   
@@ -613,6 +624,8 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     }
     .points{
         margin: 2rem;
+        display: flex;
+        flex-direction: column;
     
     }
     .imgbox-one,.imgbox-two,.imgbox-three,.imgbox-four{
@@ -652,8 +665,24 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     .submitbtn,.cancel{
         font-size: 1.5rem;
     }
+    .footer-text{
+        gap: 6rem;
+    }
 }
 
+
+@media (min-width: 1100px){
+    .section-footer{
+        display: flex;
+    
+    }
+    .footer-design{
+        width: 30%;
+    }
+    .footer-text{
+        gap: 4rem;
+    }
+}
 
 @media (min-width: 1400px){
     .heading-one{
@@ -764,9 +793,11 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     }
     .footer-design{
         width: 30%;
+        align-items:flex-start;
     }
    .footer-para{
     width: 80%;
+    text-align: left;
    }
    .footer-text{
     gap: 5rem;
