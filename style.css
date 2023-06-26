@@ -662,6 +662,10 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     .formfill-sectiontwo{
         border-left: 1px solid #80a3bb;
     }
+    .form-button{
+        display: flex;
+        flex-wrap: nowrap;
+    }
     .submitbtn,.cancel{
         font-size: 1.5rem;
     }
