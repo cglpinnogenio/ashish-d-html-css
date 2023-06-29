@@ -30,6 +30,7 @@ body{
     color: #ffffff;
     padding:  1rem;
     display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .sign{
@@ -48,6 +49,8 @@ body{
     outline: none;
     border-radius: 6px;
     border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 .signup{
     height: 1.8rem;
@@ -56,6 +59,8 @@ body{
     outline: none;
     border-radius: 6px;
     border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -89,16 +94,19 @@ body{
 }
 .heading-one{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 .heading-para{
    
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .heading-bton{
     display: flex;
     justify-content: center;
+    gap: 1rem;
    
 }
 .createaccount-button{
@@ -107,6 +115,7 @@ body{
     border-radius: 8px;
     background-color: #ffff;
     cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .requestdemo-button{
@@ -118,11 +127,14 @@ body{
     border-color: #ffff;
     outline: none;
     cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .heading-two{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+ 
 }
 .content-two{
     width: 100%;
@@ -132,6 +144,7 @@ body{
     flex-direction: column;
 }
 .innerbox{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -153,19 +166,21 @@ body{
 .card-heading{
     font-weight: bold;
     font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
 }
 .card-para{
     color: #9d9d9d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     
 }
 .points{
+   
     display: flex;
-    /* flex-direction: column; */
-    gap: 2rem;
-    /* margin-left: 2rem; */
+    gap: 1rem;
     padding-bottom: 1rem;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .imagebox{
@@ -206,13 +221,16 @@ body{
 }
 .heading-three{
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.7rem;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2rem;
 }
 .textone{
-    width: 60%;
+    width: 80%;
     text-align: center;
     color: #a5a5a5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .imgbox{
     width: 100%;
@@ -290,19 +308,23 @@ body{
 }
 .info-text{
     color: #979797;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .info-heading{
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 
 }
 .heading-four{
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 .texttwo{
     color: #979797;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .shoe-section{
     width: 100%;
@@ -327,19 +349,30 @@ body{
 }
 .shoe-heading{
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 .shoe-text{
     color: #979797;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
+}
+.shoe-link{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+a{
+    color: #3f65ff;
 }
 .contactus{
     display: flex;
    justify-content: center;
-   font-size: 3rem;
+   font-size: 2rem;
    font-weight: bold;
+   font-family: 'Poppins', sans-serif;
 }
 
 
@@ -358,7 +391,7 @@ body{
     padding: 2rem; 
 }
 .form-image{
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -395,15 +428,16 @@ body{
 .lname,.state,.email{
     width: 100%;
     border-style: none;
-    border-bottom: 2px solid #80a3bb;
+    border-bottom: 2px solid #99d9fc;
     background-color: transparent;
     outline: none;
     font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
     
 }
 textarea{
     width: 80%;
-    border: 1px solid #80a3bb;
+    border: 2px solid #99d9fc;
     background-color: transparent;
     outline: none;
     resize: none;
@@ -412,7 +446,11 @@ textarea{
    
 }
 .phno,.country,.place,.question,.editing,.fname,
-.radio-button,.email,.state,.dscrpt{
+.radio-button,.dscrpt{
+    margin-top: 2rem;
+    width: 100%;
+}
+.email,.state{
     margin-top: 2rem;
     width: 80%;
 }
@@ -429,6 +467,7 @@ textarea{
     width: 79%;
     
 }
+
 .radio-button{
     width: 100%;
     display: flex;
@@ -465,21 +504,24 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     border-radius: 2rem;
     font-size: 1rem;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
     
    
 }
 .cancel{
     width: 10rem;
     background-color: transparent;
-    border: 1px solid #80a3bb;
+    border: 1px solid #99d9fc;
     font-size: 1rem;
     border-radius: 2rem;
     color: #ffffff;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
     
 }
 .editing,.dscrpt{
     color: #ffffff;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -490,7 +532,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     padding: 3rem;
 }
 .section-footer{
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     gap: 2rem;
     color: #ffffff;
@@ -503,8 +545,9 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     
 }
 .footer-para{
-    width: 50%;
+    width: 70%;
     text-align: center; 
+    font-family: 'Inter', sans-serif;
    
 }
 .footer-text{
@@ -513,6 +556,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     gap: 3rem;
     padding-top: 3rem;
     justify-content: center;
+    font-family: 'Inter', sans-serif;
 }
 .services{
     display: flex;
@@ -527,7 +571,24 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     font-weight: bold;
     cursor: pointer;
 }
+.footer-color{
+    color: #8a94a3;
+}
 
+
+
+@media (min-width: 420px){
+    .heading-one{
+        font-size: 3rem;
+    }
+    .email,.state,.lname{
+        width: 90%;
+    }
+    textarea{
+        width: 90%;
+    }
+   
+}
 
 
 
@@ -546,7 +607,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     flex-direction: column;
   }
   .imagebox{
-    width: 60%;
+    width: 62%;
     
   }
  
@@ -574,6 +635,9 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
  .imgbox-four{
     width: 50%;
  }
+ .shoe-section{
+    gap: 2rem;
+ }
  .shoe-img{
     min-height: 25rem;
     width: 76%;
@@ -584,9 +648,19 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     text-align: center;
     margin-left: 3rem;
  }
- .place{
+ .phno,.country,.place,.question,.editing,.fname,
+.radio-button,.dscrpt{
+    margin-top: 2rem;
+    width: 95%;
+}
+.place{
+    width: 100%;
+
+  
+}
+.zipcode,.city{
     width: 86%;
- }
+}
  .footer-text{
     gap: 4rem;
  }
@@ -597,11 +671,6 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
 
 
 
-@media (min-width: 420px){
-    .heading-one{
-        font-size: 4rem;
-    }
-}
 
 
 @media (min-width: 520px) and (max-width: 767px){
@@ -643,7 +712,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
 
 }
 
-@media (min-width: 450px) and (max-width: 805px) {
+@media (min-width: 450px) and (max-width: 828px) {
     .header{
         display: flex;
         justify-content: space-between;
@@ -651,7 +720,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
   }
   
 
-@media (min-width: 806px){
+@media (min-width: 829px){
     .menu{
         display: inline;
     }
@@ -660,7 +729,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
 
 @media (min-width: 979px){
     .formfill-sectiontwo{
-        border-left: 1px solid #80a3bb;
+        border-left: 1px solid #99d9fc;
     }
     .form-button{
         display: flex;
@@ -691,7 +760,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
 @media (min-width: 1400px){
     .heading-one{
        font-size: 4.5rem; 
-       width: 68%;
+       width: 81%;
        text-align: left;
     }
     .heading-para{
@@ -716,6 +785,10 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
         
     
     }
+    .heading-two{
+        font-size: 2.5rem;
+        padding-top: 3rem;
+    }
     .innerbox{
         width: 36%;
     }
@@ -726,7 +799,11 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
         width: 55%;
     }
     .heading-three{
-        font-size: 4rem;
+        font-size: 3.5rem;
+        padding-top: 6rem;
+    }
+    .textone{
+        width: 60%;
     }
     .imgbox-one{
         width: 48%;
@@ -762,7 +839,7 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     .heading-four{
         text-align: left;
         width: 70%;
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .texttwo{
         text-align: left;
@@ -788,8 +865,14 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     .shoe-text{
         text-align: left;
     }
+    .contactus{
+        font-size: 3rem;
+    }
     .city{
-        width: 68%;
+        width: 88%;
+    }
+    .submitbtn,.cancel{
+        font-size: 1rem;
     }
     .section-footer{
         display: flex;
@@ -804,6 +887,6 @@ Input[type="Number"]::-webkit-outer-spin-button,::-webkit-inner-spin-button
     text-align: left;
    }
    .footer-text{
-    gap: 5rem;
+    gap: 7rem;
    }
 }
